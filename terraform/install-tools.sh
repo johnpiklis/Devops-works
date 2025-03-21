@@ -59,7 +59,7 @@ sudo apt install jq -y
 # Installing Helm
 sudo snap install helm --classic
 
-# Adding Helm repositories
+# Adding Helm repositorie
 
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo add grafana https://grafana.github.io/helm-charts
