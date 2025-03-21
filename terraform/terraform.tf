@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "aws-terraform-bucket-file"
+    bucket = "jumphost-server-bucket"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
